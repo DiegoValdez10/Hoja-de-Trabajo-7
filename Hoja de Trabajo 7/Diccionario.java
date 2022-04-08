@@ -61,7 +61,7 @@ public class Diccionario {
                int lugar=palabras.get(i).indexOf(',');
                String ingles=palabras.get(i).substring(0,lugar);
                String espaniol=palabras.get(i).substring(lugar+1,palabras.get(i).length());
-			   String frances=palabras.get(i).substring(lugar+1,palabras.get(i).length());
+	       String frances=palabras.get(i).substring(lugar+1,palabras.get(i).length());		
                asociaciones.add(new Association(ingles, espaniol, frances));
         }
         
